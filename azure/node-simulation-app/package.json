@@ -1,0 +1,17 @@
+{
+  "name": "node-simulation-device",
+  "version": "1.0.0",
+  "description": "Simulated device application in the IoT Hub quickstart device-to-cloud sample",
+  "main": "write.js",
+  "author": "Mikael Vesavuori, adapted from Microsoft Corporation",
+  "license": "MIT",
+  "scripts": {
+    "write": "node write.js",
+    "read": "node read.js"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.16.0",
+    "azure-iot-device-mqtt": "^1.14.1",
+    "@azure/event-hubs": "^5.2.1"
+  }
+}

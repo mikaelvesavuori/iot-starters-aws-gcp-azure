@@ -1,0 +1,2 @@
+export GCP_TOPIC_NAME=iot-starter-topic
+export GCP_SUBSCRIPTION_NAME=iot-starter-subscription
